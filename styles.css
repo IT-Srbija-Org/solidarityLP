@@ -244,10 +244,54 @@ body {
     text-decoration: none;
 }
 
-.social-link:hover {
-    color: var(--ms-primary);
-    transform: scale(1.1);
+    .social-link:hover {
+        color: var(--ms-primary);
+        transform: scale(1.1);
+    }
+
+.footer-links {
+    margin-top: 20px;
 }
+
+.footer-links a {
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: var(--ms-primary);
+}
+
+/* Text page styles */
+.sections-container-text {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 834px;
+}
+
+.text-content h2 {
+    font-family: 'SrbijaSans', Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-content p {
+    margin-bottom: 1rem;
+}
+
+.text-content ul {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.text-content li {
+    margin-bottom: 0.5rem;
+}
+
 
 
 /* Responsive design */
