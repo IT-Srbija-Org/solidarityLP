@@ -99,6 +99,47 @@ body {
     margin-top: 4rem;
 }
 
+/* support-dijana-hrka container */
+#support-dijana-hrka-container {
+    display: flex;
+    background-color: #E9E9E9;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#support-dijana-hrka-container .center-section {
+    width: 50%;
+    margin: 20px auto;
+}
+
+#support-dijana-hrka-container .center-section h3 {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+#support-dijana-hrka-container .center-section p {
+    margin: 30px auto;
+}
+
+#support-dijana-hrka-container .center-section a {
+    margin: 5px auto 0;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #1A156F;
+    color:#FFF;
+    display: flex;
+    width: 150px;
+    border-radius: 12px;
+}
+
+#support-dijana-hrka-container .center-section a span {
+    margin-top:5px;
+}
+
+
+
+
+
 /* Individual section styles */
 .section {
     flex: 1;
