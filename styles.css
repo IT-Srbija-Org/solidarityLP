@@ -78,12 +78,12 @@ body {
     color: var(--color-black);
     font-size: 3.5rem;
     line-height: 1.2;
-    max-width: 1000px;
+    max-width: 834px;
     margin-top: 3.5rem;
 }
 
 .main-description {
-    max-width: 708px;
+    max-width: 1000px;
     font-family: 'Work Sans', Helvetica, sans-serif;
     font-weight: normal;
     color: var(--color-black);
