@@ -285,10 +285,10 @@ body {
     text-decoration: none;
 }
 
-    .social-link:hover {
-        color: var(--ms-primary);
-        transform: scale(1.1);
-    }
+.social-link:hover {
+    color: var(--ms-primary);
+    transform: scale(1.1);
+}
 
 .footer-links {
     margin-top: 20px;
@@ -336,6 +336,13 @@ body {
 
 
 /* Responsive design */
+@media (max-width: 1024px) {
+    #support-dijana-hrka-container .center-section {
+        width: 80%;
+        padding: 20px;
+    }
+}
+
 @media (max-width: 768px) {
     .logo-wrapper {
         padding: 1rem 1rem 0;
@@ -404,6 +411,11 @@ body {
     .social-link {
         font-size: 1.75rem;
     }
+
+    #support-dijana-hrka-container .center-section {
+        min-width: 50%;
+        padding: 20px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -434,5 +446,9 @@ body {
 
     .social-link {
         font-size: 1.5rem;
+    }
+    #support-dijana-hrka-container .center-section {
+        min-width: 50%;
+        padding: 20px;
     }
 }
