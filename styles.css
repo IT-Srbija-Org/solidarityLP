@@ -121,7 +121,7 @@ body {
 
 .mama-protiv-masinerije p {
     margin: 30px auto;
-    width: 60%;
+    width: 70%;
 }
 
 .mama-protiv-masinerije a {
@@ -335,10 +335,23 @@ body {
 
 
 /* Responsive design */
+@media (max-width: 1200px) {
+    .cestitke-baner {
+        width:100%;
+    }
+    .mama-protiv-masinerije p {
+        margin: 30px auto;
+        width: 80%;
+    }
+}
 @media (max-width: 1024px) {
     .mama-protiv-masinerije {
         width: 80%;
         padding: 20px;
+    }
+    .mama-protiv-masinerije p {
+        margin: 30px auto;
+        width: 70%;
     }
     .cestitke-baner {
         width:100%;
@@ -349,7 +362,10 @@ body {
     .logo-wrapper {
         padding: 1rem 1rem 0;
     }
-
+    .mama-protiv-masinerije p {
+        margin: 30px auto;
+        width: 80%;
+    }
     .logo {
         width: 180px;
         height: auto;
@@ -455,6 +471,10 @@ body {
     .mama-protiv-masinerije {
         min-width: 50%;
         padding: 20px;
+    }
+    .mama-protiv-masinerije p {
+        margin: 30px auto;
+        width: 90%;
     }
     .cestitke-baner {
         width:100%;
