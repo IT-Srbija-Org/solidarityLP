@@ -100,28 +100,31 @@ body {
 }
 
 /* support-dijana-hrka container */
-#support-dijana-hrka-container {
-    display: flex;
+.mama-protiv-masinerije {
+    /*display: flex;*/
     background-color: #E9E9E9;
-    width: 100%;
-    margin-top: 2rem;
+    width: 48%;
+    /*margin-top: 2rem;*/
+    margin: 2rem auto;
+    padding:40px;
 }
 
-#support-dijana-hrka-container .center-section {
-    width: 50%;
-    margin: 20px auto;
-}
+/*.mama-protiv-masinerije {*/
+/*    width: 50%;*/
+/*    margin: 20px auto;*/
+/*}*/
 
-#support-dijana-hrka-container .center-section h3 {
+.mama-protiv-masinerije h3 {
     margin: 0 auto;
     width: fit-content;
 }
 
-#support-dijana-hrka-container .center-section p {
+.mama-protiv-masinerije p {
     margin: 30px auto;
+    width: 60%;
 }
 
-#support-dijana-hrka-container .center-section a {
+.mama-protiv-masinerije a {
     margin: 5px auto 0;
     text-decoration: none;
     padding: 15px 30px;
@@ -132,7 +135,7 @@ body {
     border-radius: 12px;
 }
 
-#support-dijana-hrka-container .center-section a span {
+.mama-protiv-masinerije a span {
     margin-top:5px;
 }
 
@@ -337,7 +340,7 @@ body {
 
 /* Responsive design */
 @media (max-width: 1024px) {
-    #support-dijana-hrka-container .center-section {
+    .mama-protiv-masinerije {
         width: 80%;
         padding: 20px;
     }
@@ -412,7 +415,7 @@ body {
         font-size: 1.75rem;
     }
 
-    #support-dijana-hrka-container .center-section {
+    .mama-protiv-masinerije {
         min-width: 50%;
         padding: 20px;
     }
@@ -447,7 +450,7 @@ body {
     .social-link {
         font-size: 1.5rem;
     }
-    #support-dijana-hrka-container .center-section {
+    .mama-protiv-masinerije {
         min-width: 50%;
         padding: 20px;
     }
